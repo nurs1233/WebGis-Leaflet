@@ -1,0 +1,4757 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6024135,
+          -6.9161558,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Stasiun Hall",
+        "styleUrl": "#7829",
+        "styleHash": "10e3f678"
+      },
+      "id": "7828"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.600717,
+          -6.9293977,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Astana Anyar RSIA Kota Bandung",
+        "styleUrl": "#7834",
+        "styleHash": "-277c188e"
+      },
+      "id": "7833"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6105556,
+          -6.9065022,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Hotel The-One-O-One A",
+        "styleUrl": "#7839",
+        "styleHash": "462b1437"
+      },
+      "id": "7838"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6115213,
+          -6.9024821,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Taman Radio A",
+        "styleUrl": "#7844",
+        "styleHash": "dcb0531"
+      },
+      "id": "7843"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6129072,
+          -6.8944564,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Rumah Sakit Santo Borromeus A",
+        "styleUrl": "#7849",
+        "styleHash": "7b7231f6"
+      },
+      "id": "7848"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6127613,
+          -6.8975185,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kartikasari A",
+        "styleUrl": "#7854",
+        "styleHash": "431222f0"
+      },
+      "id": "7853"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6177764,
+          -6.8923055,
+          0
+        ]
+      },
+      "properties": {
+        "name": "UNPAD Dipatiukur (4D)",
+        "styleUrl": "#7859",
+        "styleHash": "-4f46b04b"
+      },
+      "id": "7858"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6096165,
+          -6.9068537,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Riau XL",
+        "styleUrl": "#7864",
+        "styleHash": "785940af"
+      },
+      "id": "7863"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6030596,
+          -6.9365059,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Taman Tegallega",
+        "styleUrl": "#7869",
+        "styleHash": "-19ff928c"
+      },
+      "id": "7868"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5956524,
+          -6.9372267,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Rumah Sakit Immanuel A",
+        "styleUrl": "#7874",
+        "styleHash": "-525fa192"
+      },
+      "id": "7873"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6024577,
+          -6.9338521,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Pintu Masuk Terminal Tegallega",
+        "styleUrl": "#7879",
+        "styleHash": "1b478b33"
+      },
+      "id": "7878"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6150582,
+          -6.8869095,
+          0
+        ]
+      },
+      "properties": {
+        "name": "UNIKOM",
+        "styleUrl": "#7884",
+        "styleHash": "-1d1883d3"
+      },
+      "id": "7883"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.609039,
+          -6.9130013,
+          0
+        ]
+      },
+      "properties": {
+        "name": "SMK Negeri 1 Bandung",
+        "styleUrl": "#7889",
+        "styleHash": "508ea8f2"
+      },
+      "id": "7888"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5932469,
+          -6.9458124,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Terminal Leuwipanjang",
+        "styleUrl": "#7894",
+        "styleHash": "182e99ec"
+      },
+      "id": "7893"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6079412,
+            -6.9065104,
+            0
+          ],
+          [
+            107.6081981,
+            -6.9065975,
+            0
+          ],
+          [
+            107.6083321,
+            -6.9066257,
+            0
+          ],
+          [
+            107.6092299,
+            -6.9067838,
+            0
+          ],
+          [
+            107.6093359,
+            -6.9068089,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan L.L. RE. Martadinata",
+        "styleUrl": "#7899",
+        "styleHash": "-79f28213",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7898"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073865,
+            -6.9076628,
+            0
+          ],
+          [
+            107.6073442,
+            -6.9076324,
+            0
+          ],
+          [
+            107.6072754,
+            -6.9075859,
+            0
+          ],
+          [
+            107.6071035,
+            -6.9074752,
+            0
+          ],
+          [
+            107.6068765,
+            -6.907351,
+            0
+          ],
+          [
+            107.6066403,
+            -6.907244,
+            0
+          ],
+          [
+            107.6065225,
+            -6.9072053,
+            0
+          ],
+          [
+            107.6064209,
+            -6.9071852,
+            0
+          ],
+          [
+            107.6062761,
+            -6.9071663,
+            0
+          ],
+          [
+            107.6061572,
+            -6.9071583,
+            0
+          ],
+          [
+            107.6058415,
+            -6.9071486,
+            0
+          ],
+          [
+            107.6055894,
+            -6.9071347,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Pajajaran",
+        "styleUrl": "#7903",
+        "styleHash": "-3423fcbb",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7902"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044282,
+            -6.9071102,
+            0
+          ],
+          [
+            107.6044133,
+            -6.9065285,
+            0
+          ],
+          [
+            107.6044125,
+            -6.9064803,
+            0
+          ],
+          [
+            107.6044014,
+            -6.9058496,
+            0
+          ],
+          [
+            107.6043978,
+            -6.9056926,
+            0
+          ],
+          [
+            107.6043877,
+            -6.9049197,
+            0
+          ],
+          [
+            107.6043867,
+            -6.9048271,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Cihampelas",
+        "styleUrl": "#7907",
+        "styleHash": "1822e73d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7906"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5983921,
+            -6.91631,
+            0
+          ],
+          [
+            107.5986452,
+            -6.9162913,
+            0
+          ],
+          [
+            107.5987499,
+            -6.9162865,
+            0
+          ],
+          [
+            107.5988546,
+            -6.916282,
+            0
+          ],
+          [
+            107.5991941,
+            -6.9162673,
+            0
+          ],
+          [
+            107.5995626,
+            -6.9162453,
+            0
+          ],
+          [
+            107.599627,
+            -6.9162422,
+            0
+          ],
+          [
+            107.6002509,
+            -6.9162121,
+            0
+          ],
+          [
+            107.600424,
+            -6.9162116,
+            0
+          ],
+          [
+            107.6005777,
+            -6.9162099,
+            0
+          ],
+          [
+            107.6016247,
+            -6.9162094,
+            0
+          ],
+          [
+            107.6019524,
+            -6.9161976,
+            0
+          ],
+          [
+            107.6022035,
+            -6.9161755,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Kebon Jati",
+        "styleUrl": "#7911",
+        "styleHash": "-b2207f5",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7910"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982864,
+            -6.9187354,
+            0
+          ],
+          [
+            107.5983081,
+            -6.9194322,
+            0
+          ],
+          [
+            107.5983261,
+            -6.9200088,
+            0
+          ],
+          [
+            107.5983304,
+            -6.9201181,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Gardujati",
+        "styleUrl": "#7915",
+        "styleHash": "4124dc03",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7914"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6071931,
+            -6.9145156,
+            0
+          ],
+          [
+            107.6072105,
+            -6.9144549,
+            0
+          ],
+          [
+            107.6072378,
+            -6.9143977,
+            0
+          ],
+          [
+            107.6072741,
+            -6.9143458,
+            0
+          ],
+          [
+            107.6073185,
+            -6.9143005,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Perintis Kemerdekaan",
+        "styleUrl": "#7919",
+        "styleHash": "5613afc6",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7918"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6075641,
+            -6.9142136,
+            0
+          ],
+          [
+            107.6078626,
+            -6.9140606,
+            0
+          ],
+          [
+            107.607935,
+            -6.9140241,
+            0
+          ],
+          [
+            107.6079799,
+            -6.9140014,
+            0
+          ],
+          [
+            107.6081711,
+            -6.9139136,
+            0
+          ],
+          [
+            107.6082715,
+            -6.9138902,
+            0
+          ],
+          [
+            107.6089385,
+            -6.9138394,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Perintis Kemerdekaan",
+        "styleUrl": "#7923",
+        "styleHash": "6a26d0c9",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7922"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045889,
+            -6.9148224,
+            0
+          ],
+          [
+            107.6045944,
+            -6.9147921,
+            0
+          ],
+          [
+            107.6046031,
+            -6.9147807,
+            0
+          ],
+          [
+            107.6046151,
+            -6.914765,
+            0
+          ],
+          [
+            107.6046317,
+            -6.9147543,
+            0
+          ],
+          [
+            107.6046427,
+            -6.9147472,
+            0
+          ],
+          [
+            107.6046716,
+            -6.9147379,
+            0
+          ],
+          [
+            107.6047205,
+            -6.914736,
+            0
+          ],
+          [
+            107.6064066,
+            -6.9149399,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Stasiun Timur",
+        "styleUrl": "#7927",
+        "styleHash": "-49924b3f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7926"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604546,
+            -6.9153572,
+            0
+          ],
+          [
+            107.6045814,
+            -6.9149387,
+            0
+          ],
+          [
+            107.6045889,
+            -6.9148224,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Otto Iskandardinata",
+        "styleUrl": "#7931",
+        "styleHash": "-6cd73a71",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7930"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6124397,
+            -6.9003402,
+            0
+          ],
+          [
+            107.612514,
+            -6.9002016,
+            0
+          ],
+          [
+            107.6125839,
+            -6.900045,
+            0
+          ],
+          [
+            107.6126368,
+            -6.8999284,
+            0
+          ],
+          [
+            107.6126552,
+            -6.8998349,
+            0
+          ],
+          [
+            107.6126691,
+            -6.8995116,
+            0
+          ],
+          [
+            107.6126722,
+            -6.8994393,
+            0
+          ],
+          [
+            107.6126826,
+            -6.8991966,
+            0
+          ],
+          [
+            107.6126843,
+            -6.8991576,
+            0
+          ],
+          [
+            107.6126851,
+            -6.899137,
+            0
+          ],
+          [
+            107.6126895,
+            -6.8990737,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#7935",
+        "styleHash": "-20905679",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7934"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055894,
+            -6.9071347,
+            0
+          ],
+          [
+            107.6053829,
+            -6.907135,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Pajajaran",
+        "styleUrl": "#7939",
+        "styleHash": "-ba182b6",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7938"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073961,
+            -6.9052634,
+            0
+          ],
+          [
+            107.6075021,
+            -6.9054958,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#7943",
+        "styleHash": "8719e4d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7942"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6030002,
+            -6.9372376,
+            0
+          ],
+          [
+            107.6030097,
+            -6.9371213,
+            0
+          ],
+          [
+            107.6030191,
+            -6.9370052,
+            0
+          ],
+          [
+            107.6030234,
+            -6.9369523,
+            0
+          ],
+          [
+            107.6030596,
+            -6.9365059,
+            0
+          ],
+          [
+            107.6030712,
+            -6.9363633,
+            0
+          ],
+          [
+            107.6030839,
+            -6.9362059,
+            0
+          ],
+          [
+            107.6031051,
+            -6.9359458,
+            0
+          ],
+          [
+            107.6031352,
+            -6.9355744,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Otto Iskandardinata",
+        "styleUrl": "#7947",
+        "styleHash": "54b88245",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7946"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137895,
+            -6.8852356,
+            0
+          ],
+          [
+            107.6139271,
+            -6.8852623,
+            0
+          ],
+          [
+            107.6139428,
+            -6.8852653,
+            0
+          ],
+          [
+            107.6140014,
+            -6.8852767,
+            0
+          ],
+          [
+            107.6142554,
+            -6.885351,
+            0
+          ],
+          [
+            107.6143025,
+            -6.885397,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Dipatiukur",
+        "styleUrl": "#7951",
+        "styleHash": "31739313",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7950"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6143025,
+            -6.885397,
+            0
+          ],
+          [
+            107.6144095,
+            -6.8854607,
+            0
+          ],
+          [
+            107.6144864,
+            -6.8855164,
+            0
+          ],
+          [
+            107.6145427,
+            -6.885571,
+            0
+          ],
+          [
+            107.6146308,
+            -6.8856691,
+            0
+          ],
+          [
+            107.6146614,
+            -6.8857145,
+            0
+          ],
+          [
+            107.6147028,
+            -6.8857946,
+            0
+          ],
+          [
+            107.6147339,
+            -6.8858823,
+            0
+          ],
+          [
+            107.6148941,
+            -6.8864117,
+            0
+          ],
+          [
+            107.6150582,
+            -6.8869095,
+            0
+          ],
+          [
+            107.6150918,
+            -6.8870114,
+            0
+          ],
+          [
+            107.6152406,
+            -6.8874631,
+            0
+          ],
+          [
+            107.6158021,
+            -6.8889815,
+            0
+          ],
+          [
+            107.6158888,
+            -6.8891749,
+            0
+          ],
+          [
+            107.6160343,
+            -6.8894728,
+            0
+          ],
+          [
+            107.6165653,
+            -6.8902412,
+            0
+          ],
+          [
+            107.616618,
+            -6.8903175,
+            0
+          ],
+          [
+            107.6166228,
+            -6.8903248,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Dipatiukur",
+        "styleUrl": "#7955",
+        "styleHash": "7dba770b",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7954"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6030209,
+            -6.9353706,
+            0
+          ],
+          [
+            107.6029555,
+            -6.9353439,
+            0
+          ],
+          [
+            107.602907,
+            -6.9353108,
+            0
+          ],
+          [
+            107.6028576,
+            -6.9352667,
+            0
+          ],
+          [
+            107.6028098,
+            -6.9351918,
+            0
+          ],
+          [
+            107.6026195,
+            -6.9346109,
+            0
+          ],
+          [
+            107.6025085,
+            -6.9341267,
+            0
+          ],
+          [
+            107.6024738,
+            -6.933942,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#7959",
+        "styleHash": "-6d56b532",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7958"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088785,
+            -6.9103019,
+            0
+          ],
+          [
+            107.6088445,
+            -6.9102299,
+            0
+          ],
+          [
+            107.6087817,
+            -6.9101077,
+            0
+          ],
+          [
+            107.608484,
+            -6.9095465,
+            0
+          ],
+          [
+            107.6083912,
+            -6.9093671,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#7963",
+        "styleHash": "-5943942f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7962"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5949807,
+            -6.9370518,
+            0
+          ],
+          [
+            107.5950123,
+            -6.9370007,
+            0
+          ],
+          [
+            107.5950424,
+            -6.936952,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "styleUrl": "#7967",
+        "styleHash": "-cfcb037",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7966"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6043867,
+            -6.9048271,
+            0
+          ],
+          [
+            107.6044248,
+            -6.9047189,
+            0
+          ],
+          [
+            107.6044209,
+            -6.9045972,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Cihampelas",
+        "styleUrl": "#7971",
+        "styleHash": "-30419f69",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7970"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044209,
+            -6.9045972,
+            0
+          ],
+          [
+            107.6044173,
+            -6.9045205,
+            0
+          ],
+          [
+            107.6044157,
+            -6.9044676,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Cihampelas",
+        "styleUrl": "#7975",
+        "styleHash": "1c05448f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7974"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6083912,
+            -6.9093671,
+            0
+          ],
+          [
+            107.6081746,
+            -6.9090746,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#7979",
+        "styleHash": "30f41852",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7978"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6126895,
+            -6.8990737,
+            0
+          ],
+          [
+            107.6127027,
+            -6.8988485,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#7983",
+        "styleHash": "45073955",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7982"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6127027,
+            -6.8988485,
+            0
+          ],
+          [
+            107.6127312,
+            -6.8984524,
+            0
+          ],
+          [
+            107.6127325,
+            -6.8984219,
+            0
+          ],
+          [
+            107.612749,
+            -6.8980225,
+            0
+          ],
+          [
+            107.6127546,
+            -6.8978904,
+            0
+          ],
+          [
+            107.6127584,
+            -6.8976236,
+            0
+          ],
+          [
+            107.6127613,
+            -6.8975185,
+            0
+          ],
+          [
+            107.6127661,
+            -6.8973427,
+            0
+          ],
+          [
+            107.6127684,
+            -6.8972601,
+            0
+          ],
+          [
+            107.6127727,
+            -6.8970739,
+            0
+          ],
+          [
+            107.6128311,
+            -6.895903,
+            0
+          ],
+          [
+            107.6128523,
+            -6.8954793,
+            0
+          ],
+          [
+            107.6128867,
+            -6.8947892,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#7987",
+        "styleHash": "-6eb1e2b3",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7986"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6027054,
+            -6.916124,
+            0
+          ],
+          [
+            107.6031066,
+            -6.9160901,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Suniaraja",
+        "styleUrl": "#7991",
+        "styleHash": "6e092e1b",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7990"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6017942,
+            -6.9312076,
+            0
+          ],
+          [
+            107.6017766,
+            -6.9311868,
+            0
+          ],
+          [
+            107.6014884,
+            -6.9308457,
+            0
+          ],
+          [
+            107.6013919,
+            -6.9307438,
+            0
+          ],
+          [
+            107.601334,
+            -6.9306827,
+            0
+          ],
+          [
+            107.6012628,
+            -6.9306121,
+            0
+          ],
+          [
+            107.6012254,
+            -6.9305749,
+            0
+          ],
+          [
+            107.6011214,
+            -6.930478,
+            0
+          ],
+          [
+            107.6008741,
+            -6.9302699,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#7995",
+        "styleHash": "-45afeded",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7994"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6007743,
+            -6.9300052,
+            0
+          ],
+          [
+            107.6007602,
+            -6.9298949,
+            0
+          ],
+          [
+            107.6007454,
+            -6.9296679,
+            0
+          ],
+          [
+            107.6007387,
+            -6.9296054,
+            0
+          ],
+          [
+            107.6007351,
+            -6.9295707,
+            0
+          ],
+          [
+            107.600717,
+            -6.9293977,
+            0
+          ],
+          [
+            107.6006985,
+            -6.9292319,
+            0
+          ],
+          [
+            107.6006731,
+            -6.9290234,
+            0
+          ],
+          [
+            107.600612,
+            -6.9288685,
+            0
+          ],
+          [
+            107.6005919,
+            -6.9288192,
+            0
+          ],
+          [
+            107.6005121,
+            -6.9286235,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#7999",
+        "styleHash": "5a001876",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "7998"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5986744,
+            -6.9232626,
+            0
+          ],
+          [
+            107.598693,
+            -6.9233336,
+            0
+          ],
+          [
+            107.5987003,
+            -6.9233666,
+            0
+          ],
+          [
+            107.5987418,
+            -6.9235419,
+            0
+          ],
+          [
+            107.5987785,
+            -6.9236837,
+            0
+          ],
+          [
+            107.5988393,
+            -6.9239196,
+            0
+          ],
+          [
+            107.5989872,
+            -6.9243261,
+            0
+          ],
+          [
+            107.5990381,
+            -6.9244659,
+            0
+          ],
+          [
+            107.5991575,
+            -6.9247939,
+            0
+          ],
+          [
+            107.5992769,
+            -6.9251219,
+            0
+          ],
+          [
+            107.5995204,
+            -6.9258084,
+            0
+          ],
+          [
+            107.5995293,
+            -6.9258336,
+            0
+          ],
+          [
+            107.5996933,
+            -6.9262957,
+            0
+          ],
+          [
+            107.5997325,
+            -6.9263959,
+            0
+          ],
+          [
+            107.599866,
+            -6.9267377,
+            0
+          ],
+          [
+            107.5999192,
+            -6.9268738,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8003",
+        "styleHash": "-5a803be7",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8002"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6024135,
+            -6.9161558,
+            0
+          ],
+          [
+            107.6025153,
+            -6.9161423,
+            0
+          ],
+          [
+            107.6027054,
+            -6.916124,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Suniaraja",
+        "styleUrl": "#8007",
+        "styleHash": "-e3957ef",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8006"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5984851,
+            -6.9214116,
+            0
+          ],
+          [
+            107.5984976,
+            -6.9215636,
+            0
+          ],
+          [
+            107.5985706,
+            -6.9225334,
+            0
+          ],
+          [
+            107.5985764,
+            -6.9225957,
+            0
+          ],
+          [
+            107.598583,
+            -6.9226401,
+            0
+          ],
+          [
+            107.5986598,
+            -6.9231557,
+            0
+          ],
+          [
+            107.5986613,
+            -6.9231659,
+            0
+          ],
+          [
+            107.5986744,
+            -6.9232626,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8011",
+        "styleHash": "-317e4721",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8010"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6024416,
+            -6.9337622,
+            0
+          ],
+          [
+            107.6024097,
+            -6.9335398,
+            0
+          ],
+          [
+            107.6022953,
+            -6.9329832,
+            0
+          ],
+          [
+            107.6021978,
+            -6.9325846,
+            0
+          ],
+          [
+            107.6021793,
+            -6.9325106,
+            0
+          ],
+          [
+            107.6020798,
+            -6.9321422,
+            0
+          ],
+          [
+            107.6019893,
+            -6.9318736,
+            0
+          ],
+          [
+            107.6018666,
+            -6.9314246,
+            0
+          ],
+          [
+            107.6017942,
+            -6.9312076,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8015",
+        "styleHash": "1ac89cd7",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8014"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6129816,
+            -6.893449,
+            0
+          ],
+          [
+            107.6130148,
+            -6.8931321,
+            0
+          ],
+          [
+            107.6130562,
+            -6.8926611,
+            0
+          ],
+          [
+            107.6130864,
+            -6.8923918,
+            0
+          ],
+          [
+            107.6131472,
+            -6.8918412,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8019",
+        "styleHash": "2fb7709a",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8018"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6093359,
+            -6.9068089,
+            0
+          ],
+          [
+            107.6094718,
+            -6.9068328,
+            0
+          ],
+          [
+            107.6096165,
+            -6.9068537,
+            0
+          ],
+          [
+            107.6097643,
+            -6.906873,
+            0
+          ],
+          [
+            107.6103621,
+            -6.9069583,
+            0
+          ],
+          [
+            107.6104091,
+            -6.9069683,
+            0
+          ],
+          [
+            107.6105477,
+            -6.9069871,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan L.L. RE. Martadinata",
+        "styleUrl": "#8023",
+        "styleHash": "43ca919d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8022"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6081746,
+            -6.9090746,
+            0
+          ],
+          [
+            107.6079826,
+            -6.9088722,
+            0
+          ],
+          [
+            107.6079276,
+            -6.9088024,
+            0
+          ],
+          [
+            107.6078627,
+            -6.9086803,
+            0
+          ],
+          [
+            107.6078276,
+            -6.9085634,
+            0
+          ],
+          [
+            107.6077911,
+            -6.9084463,
+            0
+          ],
+          [
+            107.6076596,
+            -6.9080052,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8027",
+        "styleHash": "-6fee8a6b",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8026"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6077246,
+            -6.9060495,
+            0
+          ],
+          [
+            107.6077494,
+            -6.9061802,
+            0
+          ],
+          [
+            107.6077784,
+            -6.906285,
+            0
+          ],
+          [
+            107.6078246,
+            -6.906372,
+            0
+          ],
+          [
+            107.607872,
+            -6.9064327,
+            0
+          ],
+          [
+            107.6079412,
+            -6.9065104,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8031",
+        "styleHash": "6ccc8663",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8030"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6090178,
+            -6.9137787,
+            0
+          ],
+          [
+            107.6090205,
+            -6.9136767,
+            0
+          ],
+          [
+            107.6090245,
+            -6.9135277,
+            0
+          ],
+          [
+            107.609039,
+            -6.9130013,
+            0
+          ],
+          [
+            107.609046,
+            -6.9127463,
+            0
+          ],
+          [
+            107.6090488,
+            -6.912686,
+            0
+          ],
+          [
+            107.6090912,
+            -6.9111612,
+            0
+          ],
+          [
+            107.6090945,
+            -6.9110414,
+            0
+          ],
+          [
+            107.6090968,
+            -6.9109499,
+            0
+          ],
+          [
+            107.6090979,
+            -6.9109073,
+            0
+          ],
+          [
+            107.609097,
+            -6.9108182,
+            0
+          ],
+          [
+            107.6090871,
+            -6.9107051,
+            0
+          ],
+          [
+            107.6090715,
+            -6.9106208,
+            0
+          ],
+          [
+            107.609044,
+            -6.9105515,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8035",
+        "styleHash": "-46ec95a5",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8034"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6070945,
+            -6.9151362,
+            0
+          ],
+          [
+            107.6071194,
+            -6.9149776,
+            0
+          ],
+          [
+            107.6071865,
+            -6.9145473,
+            0
+          ],
+          [
+            107.6071931,
+            -6.9145156,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Perintis Kemerdekaan",
+        "styleUrl": "#8039",
+        "styleHash": "-31fdc1e2",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8038"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132807,
+            -6.8905731,
+            0
+          ],
+          [
+            107.6132988,
+            -6.8903657,
+            0
+          ],
+          [
+            107.6133478,
+            -6.8899979,
+            0
+          ],
+          [
+            107.6133807,
+            -6.8896636,
+            0
+          ],
+          [
+            107.6134041,
+            -6.8894521,
+            0
+          ],
+          [
+            107.6134287,
+            -6.8892534,
+            0
+          ],
+          [
+            107.6134591,
+            -6.8890347,
+            0
+          ],
+          [
+            107.6134738,
+            -6.8889075,
+            0
+          ],
+          [
+            107.6135047,
+            -6.888556,
+            0
+          ],
+          [
+            107.6135141,
+            -6.8884002,
+            0
+          ],
+          [
+            107.6135252,
+            -6.8882208,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8043",
+        "styleHash": "-1deaa0df",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8042"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128867,
+            -6.8947892,
+            0
+          ],
+          [
+            107.6129072,
+            -6.8944564,
+            0
+          ],
+          [
+            107.6129213,
+            -6.8942282,
+            0
+          ],
+          [
+            107.6129531,
+            -6.8937553,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8047",
+        "styleHash": "2e5c4319",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8046"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6089385,
+            -6.9138394,
+            0
+          ],
+          [
+            107.608945,
+            -6.9138185,
+            0
+          ],
+          [
+            107.6089576,
+            -6.9138005,
+            0
+          ],
+          [
+            107.6089751,
+            -6.9137871,
+            0
+          ],
+          [
+            107.6089958,
+            -6.9137796,
+            0
+          ],
+          [
+            107.6090178,
+            -6.9137787,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Perintis Kemerdekaan",
+        "styleUrl": "#8051",
+        "styleHash": "b1753e7",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8050"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5950424,
+            -6.936952,
+            0
+          ],
+          [
+            107.595108,
+            -6.9369797,
+            0
+          ],
+          [
+            107.5952913,
+            -6.937055,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Peta",
+        "styleUrl": "#8055",
+        "styleHash": "575e37df",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8054"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5910269,
+            -6.9435481,
+            0
+          ],
+          [
+            107.5910603,
+            -6.9434929,
+            0
+          ],
+          [
+            107.5910903,
+            -6.9434463,
+            0
+          ],
+          [
+            107.5911028,
+            -6.9434233,
+            0
+          ],
+          [
+            107.5911203,
+            -6.9433931,
+            0
+          ],
+          [
+            107.5912147,
+            -6.9432302,
+            0
+          ],
+          [
+            107.591257,
+            -6.9431573,
+            0
+          ],
+          [
+            107.5913003,
+            -6.9430856,
+            0
+          ],
+          [
+            107.5913435,
+            -6.9430138,
+            0
+          ],
+          [
+            107.5914686,
+            -6.9428144,
+            0
+          ],
+          [
+            107.5916513,
+            -6.9425217,
+            0
+          ],
+          [
+            107.5918451,
+            -6.942203,
+            0
+          ],
+          [
+            107.5918647,
+            -6.9421708,
+            0
+          ],
+          [
+            107.59192,
+            -6.9420837,
+            0
+          ],
+          [
+            107.5920724,
+            -6.9418438,
+            0
+          ],
+          [
+            107.5922389,
+            -6.9415903,
+            0
+          ],
+          [
+            107.5924641,
+            -6.9412448,
+            0
+          ],
+          [
+            107.5930896,
+            -6.9402979,
+            0
+          ],
+          [
+            107.59314,
+            -6.9402168,
+            0
+          ],
+          [
+            107.5932148,
+            -6.9400962,
+            0
+          ],
+          [
+            107.5932356,
+            -6.9400628,
+            0
+          ],
+          [
+            107.5933094,
+            -6.939944,
+            0
+          ],
+          [
+            107.5934404,
+            -6.9397331,
+            0
+          ],
+          [
+            107.5936005,
+            -6.9394752,
+            0
+          ],
+          [
+            107.5937688,
+            -6.9391642,
+            0
+          ],
+          [
+            107.5939092,
+            -6.9389121,
+            0
+          ],
+          [
+            107.5939987,
+            -6.938752,
+            0
+          ],
+          [
+            107.5940814,
+            -6.9386042,
+            0
+          ],
+          [
+            107.5941015,
+            -6.9385696,
+            0
+          ],
+          [
+            107.594148,
+            -6.9384872,
+            0
+          ],
+          [
+            107.594204,
+            -6.9383881,
+            0
+          ],
+          [
+            107.594524,
+            -6.9378129,
+            0
+          ],
+          [
+            107.5945872,
+            -6.9376992,
+            0
+          ],
+          [
+            107.5946221,
+            -6.9376377,
+            0
+          ],
+          [
+            107.5946542,
+            -6.9375847,
+            0
+          ],
+          [
+            107.5948299,
+            -6.9373141,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "styleUrl": "#8059",
+        "styleHash": "6c4d0ba2",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8058"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981927,
+            -6.916324,
+            0
+          ],
+          [
+            107.5982715,
+            -6.9163189,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Kebon Jati",
+        "styleUrl": "#8063",
+        "styleHash": "-7f9fd35b",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8062"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604907,
+            -6.904268,
+            0
+          ],
+          [
+            107.6050069,
+            -6.9042364,
+            0
+          ],
+          [
+            107.6052804,
+            -6.9041005,
+            0
+          ],
+          [
+            107.6053744,
+            -6.90407,
+            0
+          ],
+          [
+            107.6054375,
+            -6.9040541,
+            0
+          ],
+          [
+            107.6055836,
+            -6.9040421,
+            0
+          ],
+          [
+            107.6057001,
+            -6.9040566,
+            0
+          ],
+          [
+            107.6058666,
+            -6.904082,
+            0
+          ],
+          [
+            107.6061415,
+            -6.9041472,
+            0
+          ],
+          [
+            107.6062746,
+            -6.904201,
+            0
+          ],
+          [
+            107.6063427,
+            -6.9042285,
+            0
+          ],
+          [
+            107.6065578,
+            -6.9043358,
+            0
+          ],
+          [
+            107.6068071,
+            -6.9045045,
+            0
+          ],
+          [
+            107.6068707,
+            -6.9045644,
+            0
+          ],
+          [
+            107.6069853,
+            -6.9046722,
+            0
+          ],
+          [
+            107.6070822,
+            -6.9047818,
+            0
+          ],
+          [
+            107.6072335,
+            -6.9049789,
+            0
+          ],
+          [
+            107.6073451,
+            -6.9051744,
+            0
+          ],
+          [
+            107.6073639,
+            -6.9052044,
+            0
+          ],
+          [
+            107.6073961,
+            -6.9052634,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8067",
+        "styleHash": "-3358ef63",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8066"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5928649,
+            -6.9448811,
+            0
+          ],
+          [
+            107.5928452,
+            -6.9447709,
+            0
+          ],
+          [
+            107.5927744,
+            -6.9446004,
+            0
+          ],
+          [
+            107.5927602,
+            -6.9445782,
+            0
+          ],
+          [
+            107.5926579,
+            -6.9444185,
+            0
+          ],
+          [
+            107.5924688,
+            -6.9442725,
+            0
+          ],
+          [
+            107.5920765,
+            -6.9440744,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "styleUrl": "#8071",
+        "styleHash": "-569dde95",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8070"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6076596,
+            -6.9080052,
+            0
+          ],
+          [
+            107.607602,
+            -6.9079117,
+            0
+          ],
+          [
+            107.607563,
+            -6.9078579,
+            0
+          ],
+          [
+            107.607537,
+            -6.907823,
+            0
+          ],
+          [
+            107.607465,
+            -6.9077399,
+            0
+          ],
+          [
+            107.6073865,
+            -6.9076628,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Pajajaran",
+        "styleUrl": "#8075",
+        "styleHash": "-a56fa9d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8074"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6053829,
+            -6.907135,
+            0
+          ],
+          [
+            107.6051824,
+            -6.9071438,
+            0
+          ],
+          [
+            107.6047535,
+            -6.9071527,
+            0
+          ],
+          [
+            107.6045501,
+            -6.9071569,
+            0
+          ],
+          [
+            107.6045,
+            -6.907158,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Pajajaran",
+        "styleUrl": "#8079",
+        "styleHash": "a97d926",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8078"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982092,
+            -6.9170861,
+            0
+          ],
+          [
+            107.5981967,
+            -6.9164481,
+            0
+          ],
+          [
+            107.598196,
+            -6.9164118,
+            0
+          ],
+          [
+            107.5981927,
+            -6.916324,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Gardujati",
+        "styleUrl": "#8083",
+        "styleHash": "1eaafa29",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8082"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6008741,
+            -6.9302699,
+            0
+          ],
+          [
+            107.6008268,
+            -6.9301487,
+            0
+          ],
+          [
+            107.6007743,
+            -6.9300052,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8087",
+        "styleHash": "6af1de21",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8086"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.599356,
+            -6.9374873,
+            0
+          ],
+          [
+            107.5994448,
+            -6.9374721,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Peta",
+        "styleUrl": "#8091",
+        "styleHash": "47aceeef",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8090"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5994448,
+            -6.9374721,
+            0
+          ],
+          [
+            107.5994636,
+            -6.9374701,
+            0
+          ],
+          [
+            107.6001982,
+            -6.9373255,
+            0
+          ],
+          [
+            107.6005128,
+            -6.9372644,
+            0
+          ],
+          [
+            107.6009668,
+            -6.9371867,
+            0
+          ],
+          [
+            107.6012443,
+            -6.9371571,
+            0
+          ],
+          [
+            107.6015131,
+            -6.9371424,
+            0
+          ],
+          [
+            107.601986,
+            -6.9371494,
+            0
+          ],
+          [
+            107.6020331,
+            -6.9371534,
+            0
+          ],
+          [
+            107.6023057,
+            -6.9371766,
+            0
+          ],
+          [
+            107.6025122,
+            -6.9371945,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Peta",
+        "styleUrl": "#8095",
+        "styleHash": "-6c0c2d19",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8094"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.591821,
+            -6.9439456,
+            0
+          ],
+          [
+            107.5916379,
+            -6.9438582,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "styleUrl": "#8099",
+        "styleHash": "-ac74fc1",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8098"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5920765,
+            -6.9440744,
+            0
+          ],
+          [
+            107.591821,
+            -6.9439456,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "styleUrl": "#8103",
+        "styleHash": "3b073597",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8102"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113914,
+            -6.9028197,
+            0
+          ],
+          [
+            107.6115213,
+            -6.9024821,
+            0
+          ],
+          [
+            107.6115708,
+            -6.9023556,
+            0
+          ],
+          [
+            107.6117932,
+            -6.9018165,
+            0
+          ],
+          [
+            107.6118059,
+            -6.9017842,
+            0
+          ],
+          [
+            107.6121077,
+            -6.9010196,
+            0
+          ],
+          [
+            107.6121823,
+            -6.9008478,
+            0
+          ],
+          [
+            107.6123625,
+            -6.9004907,
+            0
+          ],
+          [
+            107.6124171,
+            -6.9003853,
+            0
+          ],
+          [
+            107.6124397,
+            -6.9003402,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8107",
+        "styleHash": "-78b1e671",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8106"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6077246,
+            -6.9060495,
+            0
+          ],
+          [
+            107.6076516,
+            -6.9060628,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Route Segment",
+        "styleUrl": "#8111",
+        "styleHash": "64092a5d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8110"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135831,
+            -6.8868145,
+            0
+          ],
+          [
+            107.6135878,
+            -6.8866727,
+            0
+          ],
+          [
+            107.6135931,
+            -6.8865176,
+            0
+          ],
+          [
+            107.6136173,
+            -6.8861488,
+            0
+          ],
+          [
+            107.6136771,
+            -6.8854184,
+            0
+          ],
+          [
+            107.6136799,
+            -6.8853848,
+            0
+          ],
+          [
+            107.6136812,
+            -6.8853519,
+            0
+          ],
+          [
+            107.6136854,
+            -6.8852776,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8115",
+        "styleHash": "-4faff1ab",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8114"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6005121,
+            -6.9286235,
+            0
+          ],
+          [
+            107.6004015,
+            -6.9283347,
+            0
+          ],
+          [
+            107.6003256,
+            -6.9280843,
+            0
+          ],
+          [
+            107.6002646,
+            -6.9279252,
+            0
+          ],
+          [
+            107.6001956,
+            -6.9277355,
+            0
+          ],
+          [
+            107.5999523,
+            -6.9269769,
+            0
+          ],
+          [
+            107.5999192,
+            -6.9268738,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8119",
+        "styleHash": "-3ac11de8",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8118"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5948299,
+            -6.9373141,
+            0
+          ],
+          [
+            107.5949436,
+            -6.9371168,
+            0
+          ],
+          [
+            107.5949807,
+            -6.9370518,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "styleUrl": "#8123",
+        "styleHash": "-26adfce5",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8122"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6105564,
+            -6.9067387,
+            0
+          ],
+          [
+            107.6105556,
+            -6.9065022,
+            0
+          ],
+          [
+            107.6105606,
+            -6.9054954,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8127",
+        "styleHash": "2598e713",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8126"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045,
+            -6.907158,
+            0
+          ],
+          [
+            107.6044924,
+            -6.907135,
+            0
+          ],
+          [
+            107.6044754,
+            -6.9071175,
+            0
+          ],
+          [
+            107.6044526,
+            -6.9071087,
+            0
+          ],
+          [
+            107.6044282,
+            -6.9071102,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Pajajaran",
+        "styleUrl": "#8131",
+        "styleHash": "253f7e1",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8130"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.606909,
+            -6.9153005,
+            0
+          ],
+          [
+            107.6070047,
+            -6.9152495,
+            0
+          ],
+          [
+            107.6070566,
+            -6.9152024,
+            0
+          ],
+          [
+            107.6070945,
+            -6.9151362,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Stasiun Timur",
+        "styleUrl": "#8135",
+        "styleHash": "4e9adbd9",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8134"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6136907,
+            -6.8852164,
+            0
+          ],
+          [
+            107.6137895,
+            -6.8852356,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Dipatiukur",
+        "styleUrl": "#8139",
+        "styleHash": "6389af9c",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8138"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6131855,
+            -6.8914961,
+            0
+          ],
+          [
+            107.6132358,
+            -6.890944,
+            0
+          ],
+          [
+            107.6132807,
+            -6.8905731,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8143",
+        "styleHash": "779cd09f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8142"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6168134,
+            -6.8905914,
+            0
+          ],
+          [
+            107.6169111,
+            -6.890724,
+            0
+          ],
+          [
+            107.6169359,
+            -6.8907603,
+            0
+          ],
+          [
+            107.6170495,
+            -6.8909264,
+            0
+          ],
+          [
+            107.617163,
+            -6.8910925,
+            0
+          ],
+          [
+            107.6174257,
+            -6.8915935,
+            0
+          ],
+          [
+            107.6174672,
+            -6.8916726,
+            0
+          ],
+          [
+            107.6175776,
+            -6.8918986,
+            0
+          ],
+          [
+            107.6177764,
+            -6.8923055,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Dipatiukur",
+        "styleUrl": "#8147",
+        "styleHash": "-3c1c4b69",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8146"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166228,
+            -6.8903248,
+            0
+          ],
+          [
+            107.6166372,
+            -6.8903228,
+            0
+          ],
+          [
+            107.6166517,
+            -6.890328,
+            0
+          ],
+          [
+            107.6166706,
+            -6.8903452,
+            0
+          ],
+          [
+            107.6167537,
+            -6.8904642,
+            0
+          ],
+          [
+            107.6168098,
+            -6.8905555,
+            0
+          ],
+          [
+            107.6168134,
+            -6.8905914,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Dipatiukur",
+        "styleUrl": "#8151",
+        "styleHash": "-5f613a9b",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8150"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982595,
+            -6.9181989,
+            0
+          ],
+          [
+            107.5982308,
+            -6.9180616,
+            0
+          ],
+          [
+            107.5982278,
+            -6.9178847,
+            0
+          ],
+          [
+            107.5982246,
+            -6.9176091,
+            0
+          ],
+          [
+            107.5982111,
+            -6.9171528,
+            0
+          ],
+          [
+            107.5982092,
+            -6.9170861,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Gardujati",
+        "styleUrl": "#8155",
+        "styleHash": "-131a56a3",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8154"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106154,
+            -6.9048111,
+            0
+          ],
+          [
+            107.6106441,
+            -6.9046942,
+            0
+          ],
+          [
+            107.610854,
+            -6.9041903,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8159",
+        "styleHash": "1d47d20",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8158"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5952913,
+            -6.937055,
+            0
+          ],
+          [
+            107.5955701,
+            -6.9371851,
+            0
+          ],
+          [
+            107.5956524,
+            -6.9372267,
+            0
+          ],
+          [
+            107.5957833,
+            -6.9372929,
+            0
+          ],
+          [
+            107.5960045,
+            -6.937408,
+            0
+          ],
+          [
+            107.596358,
+            -6.9375437,
+            0
+          ],
+          [
+            107.5965807,
+            -6.9376054,
+            0
+          ],
+          [
+            107.5967717,
+            -6.9376364,
+            0
+          ],
+          [
+            107.5970266,
+            -6.9376757,
+            0
+          ],
+          [
+            107.5970826,
+            -6.9376843,
+            0
+          ],
+          [
+            107.597167,
+            -6.937696,
+            0
+          ],
+          [
+            107.597571,
+            -6.9377203,
+            0
+          ],
+          [
+            107.5980158,
+            -6.9377065,
+            0
+          ],
+          [
+            107.5984843,
+            -6.937651,
+            0
+          ],
+          [
+            107.5993404,
+            -6.9374905,
+            0
+          ],
+          [
+            107.599356,
+            -6.9374873,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Peta",
+        "styleUrl": "#8163",
+        "styleHash": "15e79e23",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8162"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6129531,
+            -6.8937553,
+            0
+          ],
+          [
+            107.6129607,
+            -6.8936636,
+            0
+          ],
+          [
+            107.6129816,
+            -6.893449,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8167",
+        "styleHash": "622e821b",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8166"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.609044,
+            -6.9105515,
+            0
+          ],
+          [
+            107.6088785,
+            -6.9103019,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8171",
+        "styleHash": "3ee992e9",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8170"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6136854,
+            -6.8852776,
+            0
+          ],
+          [
+            107.6136907,
+            -6.8852164,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8175",
+        "styleHash": "-74cf891f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8174"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6031066,
+            -6.9160901,
+            0
+          ],
+          [
+            107.6043695,
+            -6.9158689,
+            0
+          ],
+          [
+            107.6045054,
+            -6.9158364,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Suniaraja",
+        "styleUrl": "#8179",
+        "styleHash": "-5fe0b55c",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8178"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045054,
+            -6.9158364,
+            0
+          ],
+          [
+            107.6045124,
+            -6.9157548,
+            0
+          ],
+          [
+            107.6045263,
+            -6.9155905,
+            0
+          ],
+          [
+            107.604546,
+            -6.9153572,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Otto Iskandardinata",
+        "styleUrl": "#8183",
+        "styleHash": "-4bcd9459",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8182"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135555,
+            -6.887414,
+            0
+          ],
+          [
+            107.6135616,
+            -6.8873211,
+            0
+          ],
+          [
+            107.6135665,
+            -6.8872174,
+            0
+          ],
+          [
+            107.6135764,
+            -6.8870062,
+            0
+          ],
+          [
+            107.6135831,
+            -6.8868145,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8187",
+        "styleHash": "794f9f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8186"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6105477,
+            -6.9069871,
+            0
+          ],
+          [
+            107.6105564,
+            -6.9068303,
+            0
+          ],
+          [
+            107.6105564,
+            -6.9067387,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8191",
+        "styleHash": "-22cb9f93",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8190"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6025122,
+            -6.9371945,
+            0
+          ],
+          [
+            107.6028669,
+            -6.9372273,
+            0
+          ],
+          [
+            107.6028903,
+            -6.9372279,
+            0
+          ],
+          [
+            107.6030002,
+            -6.9372376,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Peta",
+        "styleUrl": "#8195",
+        "styleHash": "297b4465",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8194"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6031352,
+            -6.9355744,
+            0
+          ],
+          [
+            107.6031365,
+            -6.9355032,
+            0
+          ],
+          [
+            107.6031065,
+            -6.9354478,
+            0
+          ],
+          [
+            107.6030557,
+            -6.9353938,
+            0
+          ],
+          [
+            107.6030209,
+            -6.9353706,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Otto Iskandardinata",
+        "styleUrl": "#8199",
+        "styleHash": "-753fde43",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8198"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6064066,
+            -6.9149399,
+            0
+          ],
+          [
+            107.6065239,
+            -6.9149519,
+            0
+          ],
+          [
+            107.6066003,
+            -6.9149924,
+            0
+          ],
+          [
+            107.6066521,
+            -6.9150384,
+            0
+          ],
+          [
+            107.6067855,
+            -6.9152656,
+            0
+          ],
+          [
+            107.6068306,
+            -6.9152963,
+            0
+          ],
+          [
+            107.606909,
+            -6.9153005,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Stasiun Timur",
+        "styleUrl": "#8203",
+        "styleHash": "-2f7158eb",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8202"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610854,
+            -6.9041903,
+            0
+          ],
+          [
+            107.6113914,
+            -6.9028197,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8207",
+        "styleHash": "1cd58b0d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8206"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6047378,
+            -6.9043028,
+            0
+          ],
+          [
+            107.604907,
+            -6.904268,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8211",
+        "styleHash": "-66f6425",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8210"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044854,
+            -6.9043711,
+            0
+          ],
+          [
+            107.6045924,
+            -6.9043527,
+            0
+          ],
+          [
+            107.6046179,
+            -6.9043488,
+            0
+          ],
+          [
+            107.6047378,
+            -6.9043028,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8215",
+        "styleHash": "45d77fd3",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8214"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044157,
+            -6.9044676,
+            0
+          ],
+          [
+            107.6044268,
+            -6.9044278,
+            0
+          ],
+          [
+            107.6044511,
+            -6.9043943,
+            0
+          ],
+          [
+            107.6044854,
+            -6.9043711,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8219",
+        "styleHash": "5ac65396",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8218"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5932469,
+            -6.9458124,
+            0
+          ],
+          [
+            107.593099,
+            -6.9457887,
+            0
+          ],
+          [
+            107.5930399,
+            -6.9457531,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalur Bus Kota",
+        "styleUrl": "#8223",
+        "styleHash": "6ed97499",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8222"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135252,
+            -6.8882208,
+            0
+          ],
+          [
+            107.6135342,
+            -6.8880287,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8227",
+        "styleHash": "-44dfa76f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8226"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135342,
+            -6.8880287,
+            0
+          ],
+          [
+            107.6135521,
+            -6.8875107,
+            0
+          ],
+          [
+            107.6135555,
+            -6.887414,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8231",
+        "styleHash": "-682496a1",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8230"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6022035,
+            -6.9161755,
+            0
+          ],
+          [
+            107.6023281,
+            -6.9161607,
+            0
+          ],
+          [
+            107.6024135,
+            -6.9161558,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Suniaraja",
+        "styleUrl": "#8235",
+        "styleHash": "-1bddb2a9",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8234"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6075021,
+            -6.9054958,
+            0
+          ],
+          [
+            107.6075188,
+            -6.9055413,
+            0
+          ],
+          [
+            107.60753,
+            -6.9055726,
+            0
+          ],
+          [
+            107.6075685,
+            -6.9056935,
+            0
+          ],
+          [
+            107.6075999,
+            -6.9058246,
+            0
+          ],
+          [
+            107.6076304,
+            -6.9059685,
+            0
+          ],
+          [
+            107.6076516,
+            -6.9060628,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Wastukencana",
+        "styleUrl": "#8239",
+        "styleHash": "-6eedee6",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8238"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5930399,
+            -6.9457531,
+            0
+          ],
+          [
+            107.592993,
+            -6.9456782,
+            0
+          ],
+          [
+            107.5929837,
+            -6.9456634,
+            0
+          ],
+          [
+            107.5929519,
+            -6.9455681,
+            0
+          ],
+          [
+            107.5929354,
+            -6.9455213,
+            0
+          ],
+          [
+            107.592865,
+            -6.9452968,
+            0
+          ],
+          [
+            107.5928485,
+            -6.9452341,
+            0
+          ],
+          [
+            107.5928394,
+            -6.9450646,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalur Bus Kota",
+        "styleUrl": "#8243",
+        "styleHash": "d24421d",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8242"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6131472,
+            -6.8918412,
+            0
+          ],
+          [
+            107.6131855,
+            -6.8914961,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8247",
+        "styleHash": "596b2615",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8246"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6105606,
+            -6.9054954,
+            0
+          ],
+          [
+            107.6105667,
+            -6.9052602,
+            0
+          ],
+          [
+            107.6105781,
+            -6.9050145,
+            0
+          ],
+          [
+            107.6106154,
+            -6.9048111,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Ir. H. Djuanda",
+        "styleUrl": "#8251",
+        "styleHash": "362636e3",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8250"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073185,
+            -6.9143005,
+            0
+          ],
+          [
+            107.6073396,
+            -6.9142915,
+            0
+          ],
+          [
+            107.6073918,
+            -6.9142744,
+            0
+          ],
+          [
+            107.607494,
+            -6.9142383,
+            0
+          ],
+          [
+            107.6075641,
+            -6.9142136,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Perintis Kemerdekaan",
+        "styleUrl": "#8255",
+        "styleHash": "-7d92e525",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8254"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5928394,
+            -6.9450646,
+            0
+          ],
+          [
+            107.5928649,
+            -6.9448811,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalur Bus Kota",
+        "styleUrl": "#8259",
+        "styleHash": "-68a41162",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8258"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5916379,
+            -6.9438582,
+            0
+          ],
+          [
+            107.5910845,
+            -6.9435862,
+            0
+          ],
+          [
+            107.5910269,
+            -6.9435481,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "styleUrl": "#8263",
+        "styleHash": "-5490f05f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8262"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6177764,
+            -6.8923055,
+            0
+          ],
+          [
+            107.6178188,
+            -6.8923923,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Dipatiukur",
+        "styleUrl": "#8267",
+        "styleHash": "-84a0c67",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8266"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5983304,
+            -6.9201181,
+            0
+          ],
+          [
+            107.5983477,
+            -6.9202233,
+            0
+          ],
+          [
+            107.5984236,
+            -6.9208584,
+            0
+          ],
+          [
+            107.5984295,
+            -6.9209186,
+            0
+          ],
+          [
+            107.5984382,
+            -6.9210075,
+            0
+          ],
+          [
+            107.5984736,
+            -6.9213127,
+            0
+          ],
+          [
+            107.5984851,
+            -6.9214116,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8271",
+        "styleHash": "-2b8efb99",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8270"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982864,
+            -6.9187354,
+            0
+          ],
+          [
+            107.5982595,
+            -6.9181989,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Gardujati",
+        "styleUrl": "#8275",
+        "styleHash": "20b7e85f",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8274"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6024738,
+            -6.933942,
+            0
+          ],
+          [
+            107.6024577,
+            -6.9338521,
+            0
+          ],
+          [
+            107.6024416,
+            -6.9337622,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Astana Anyar",
+        "styleUrl": "#8279",
+        "styleHash": "35a6bc22",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8278"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982715,
+            -6.9163189,
+            0
+          ],
+          [
+            107.5983921,
+            -6.91631,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Kebon Jati",
+        "styleUrl": "#8283",
+        "styleHash": "49b9dd25",
+        "stroke": "#2E3192",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      },
+      "id": "8282"
+    }
+  ]
+}
