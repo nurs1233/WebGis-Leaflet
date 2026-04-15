@@ -76,39 +76,6 @@
     .coverage-bar-bg { background: #f3f4f6; border-radius: 4px; height: 8px; overflow: hidden; }
     .coverage-bar-fill { height: 100%; border-radius: 4px; transition: width 0.5s ease; }
 
-    /* ---- Measure Tool ---- */
-    #mjt-measure-btn {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      z-index: 1000;
-      background: white;
-      border: 1px solid #d1d5db;
-      border-radius: 6px;
-      padding: 6px 10px;
-      font-size: 12px;
-      cursor: pointer;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-      color: #374151;
-      transition: all 0.2s;
-    }
-    #mjt-measure-btn:hover { background: #f9fafb; }
-    #mjt-measure-btn.active { background: #dbeafe; border-color: #3b82f6; color: #1d4ed8; }
-    #mjt-measure-result {
-      position: absolute;
-      top: 50px;
-      right: 15px;
-      z-index: 1000;
-      background: white;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.12);
-      padding: 8px 12px;
-      font-size: 12px;
-      min-width: 160px;
-      display: none;
-      color: #111827;
-    }
-
     /* ---- Existing styles ---- */
     .leaflet-popup-content { font-size: 13px; margin: 12px; }
 
@@ -185,10 +152,6 @@
         <span class="stat-label">Koridor Aktif</span>
       </div>
     </div>
-
-    <!-- Tool Ukur Jarak -->
-    <button id="mjt-measure-btn" onclick="toggleMeasure()">📏 Ukur Jarak</button>
-    <div id="mjt-measure-result"></div>
 
     <!-- Container Peta Utama -->
     <div id="metro-jabar-map">Memuat peta...</div>
@@ -270,11 +233,6 @@
       let totalLoaded = 0;
       let totalHalte = 0;
       let totalKm = 0;
-
-      // Measure tool state
-      let measureMode = false;
-      let measurePoints = [];
-      let measureLayer = null;
 
       // Feature Groups
       const hubGroup = L.featureGroup();
@@ -484,79 +442,6 @@
         document.getElementById('stat-total-hub').textContent = hubCount;
         document.getElementById('stat-total-km').textContent = (totalKm / 1000).toFixed(0) + ' km';
       }
-
-      // BARU: Tool pengukur jarak
-      window.toggleMeasure = function() {
-        measureMode = !measureMode;
-        const btn = document.getElementById('mjt-measure-btn');
-        const resultDiv = document.getElementById('mjt-measure-result');
-
-        if (measureMode) {
-          btn.classList.add('active');
-          btn.textContent = '✕ Batalkan Ukur';
-          map.getContainer().style.cursor = 'crosshair';
-          measurePoints = [];
-          if (measureLayer) { map.removeLayer(measureLayer); measureLayer = null; }
-          resultDiv.style.display = 'none';
-        } else {
-          btn.classList.remove('active');
-          btn.textContent = '📏 Ukur Jarak';
-          map.getContainer().style.cursor = '';
-        }
-      };
-
-      map.on('click', function(e) {
-        if (!measureMode) return;
-
-        measurePoints.push(e.latlng);
-
-        if (measurePoints.length === 1) {
-          // Titik pertama: tampilkan marker sementara
-          if (measureLayer) map.removeLayer(measureLayer);
-          measureLayer = L.layerGroup([
-            L.circleMarker(measurePoints[0], { radius: 6, color: '#ef4444', fillColor: '#ef4444', fillOpacity: 1 })
-          ]).addTo(map);
-          document.getElementById('mjt-measure-result').style.display = 'block';
-          document.getElementById('mjt-measure-result').innerHTML = '📍 Titik 1 dipilih<br/><small style="color:#6b7280">Klik titik kedua di peta</small>';
-        }
-
-        if (measurePoints.length === 2) {
-          const p1 = measurePoints[0];
-          const p2 = measurePoints[1];
-          const distM = p1.distanceTo(p2);
-          const distKm = (distM / 1000).toFixed(2);
-          const distM2 = Math.round(distM);
-
-          // Gambar garis pengukuran
-          if (measureLayer) map.removeLayer(measureLayer);
-          measureLayer = L.layerGroup([
-            L.polyline([p1, p2], { color: '#ef4444', weight: 2, dashArray: '6 4' }),
-            L.circleMarker(p1, { radius: 6, color: '#ef4444', fillColor: '#ef4444', fillOpacity: 1 }),
-            L.circleMarker(p2, { radius: 6, color: '#ef4444', fillColor: '#ef4444', fillOpacity: 1 })
-          ]).addTo(map);
-
-          // Tampilkan hasil
-          const resultDiv = document.getElementById('mjt-measure-result');
-          resultDiv.innerHTML = `
-            <b style="font-size:13px">Hasil Pengukuran</b><br/>
-            Jarak: <b style="color:#1d4ed8">${distKm} km</b> (${distM2} m)<br/>
-            <hr style="margin:5px 0;border:none;border-top:1px solid #eee"/>
-            <small style="color:#6b7280">
-              ${distM2 <= 400 ? '✅ Dalam buffer jalan kaki ideal' :
-                distM2 <= 800 ? '🟡 Dalam buffer jalan kaki maks' :
-                '🔴 Di luar jangkauan jalan kaki'}
-            </small><br/>
-            <button onclick="toggleMeasure()" style="margin-top:5px;font-size:11px;padding:3px 8px;cursor:pointer;border:1px solid #d1d5db;border-radius:4px;background:#f9fafb">Ukur Ulang</button>
-          `;
-
-          // Reset untuk pengukuran baru
-          measureMode = false;
-          document.getElementById('mjt-measure-btn').classList.remove('active');
-          document.getElementById('mjt-measure-btn').textContent = '📏 Ukur Jarak';
-          map.getContainer().style.cursor = '';
-          measurePoints = [];
-        }
-      });
 
       // --- LEGENDA KUSTOM ---
       const legend = L.control({ position: 'bottomright' });
