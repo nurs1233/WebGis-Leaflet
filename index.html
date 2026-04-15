@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Peta WebGIS Saya</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8fafc; padding: 20px; color: #333; }
+        h1 { text-align: center; color: #1e293b; margin-bottom: 30px; }
+        #map-list { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .map-item { 
+            display: flex; align-items: center; padding: 15px 20px; margin-bottom: 12px; 
+            background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; 
+            text-decoration: none; color: #1d4ed8; font-weight: 600; 
+            transition: all 0.2s ease; 
+        }
+        .map-item:hover { background: #dbeafe; transform: translateY(-2px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .map-icon { font-size: 24px; margin-right: 15px; }
+    </style>
+</head>
+<body>
+
+    <h1>🗺️ Portal WebGIS Saya</h1>
+    
+    <div id="map-list">
+        <p id="loading-text" style="text-align: center; color: #64748b;">Sedang memindai file peta...</p>
+    </div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", async function() {
+        // Konfigurasi Repositori Anda
+        const repoOwner = "nurs1233";
+        const repoName = "WebGis-Leaflet";
+        
+        // URL API GitHub untuk melihat isi folder terluar (root)
+        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/`;
+        const mapListDiv = document.getElementById("map-list");
+
+        try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) throw new Error("Gagal mengambil data dari GitHub");
+            const files = await response.json();
+
+            // Hapus teks loading
+            mapListDiv.innerHTML = "";
+
+            // Filter HANYA file yang berakhiran .html dan kecualikan index.html (file ini sendiri)
+            const htmlFiles = files.filter(file => file.name.endsWith('.html') && file.name !== 'index.html');
+
+            if (htmlFiles.length === 0) {
+                mapListDiv.innerHTML = "<p style='text-align:center;'>Belum ada file HTML peta yang ditemukan.</p>";
+                return;
+            }
+
+            // Buat tombol/link untuk setiap file HTML yang ditemukan
+            htmlFiles.forEach(file => {
+                const link = document.createElement("a");
+                link.href = file.name; // Link relatif, akan langsung terbuka di tab yang sama/baru
+                link.className = "map-item";
+                
+                // Rapikan nama file agar enak dibaca (Misal: "MJT_Leaflet.html" menjadi "MJT Leaflet")
+                let displayName = file.name.replace('.html', '').replace(/[-_]/g, ' ');
+                
+                link.innerHTML = `<span class="map-icon">📍</span><span>${displayName}</span>`;
+                mapListDiv.appendChild(link);
+            });
+
+        } catch (error) {
+            mapListDiv.innerHTML = `<p style="color:red; text-align:center;">Error: ${error.message}</p>`;
+        }
+    });
+    </script>
+
+</body>
+</html>
