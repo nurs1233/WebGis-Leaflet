@@ -3,37 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal WebGIS - Koleksi Peta Interaktif</title>
+    <title>Portal WebGIS - Ripan Nursalam</title>
     
-    <!-- Google Fonts: Inter -->
+    <!-- Google Fonts: Space Grotesk & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     
-    <!-- Tailwind CSS (via CDN untuk kemudahan) -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: { sans: ['Inter', 'sans-serif'] },
-                    colors: { primary: '#2563eb', secondary: '#475569' }
+                    fontFamily: { 
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif']
+                    },
+                    colors: { 
+                        space: {
+                            900: '#060913',
+                            800: '#0d1326',
+                            700: '#161f3d'
+                        },
+                        neon: {
+                            blue: '#3b82f6',
+                            purple: '#8b5cf6',
+                            glow: 'rgba(139, 92, 246, 0.4)'
+                        }
+                    }
                 }
             }
         }
     </script>
 
     <style>
-        /* Custom Background Pattern untuk Hero Section */
-        .bg-pattern {
-            background-color: #1e293b;
-            background-image: radial-gradient(#334155 1px, transparent 1px);
-            background-size: 20px 20px;
+        /* Tema Angkasa (Deep Space Background) */
+        body {
+            background-color: #060913; /* Sangat gelap, nyaris hitam */
+            color: #e2e8f0;
+            position: relative;
         }
-        
-        /* Animasi Loading Spinner */
+
+        /* Nebula Glowing Effect */
+        .nebula-bg {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: 
+                radial-gradient(circle at 15% 20%, rgba(59, 130, 246, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.15) 0%, transparent 40%);
+            z-index: -2;
+        }
+
+        /* Pola Bintang (Star Pattern) */
+        .stars-pattern {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: radial-gradient(#ffffff 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 0.1;
+            z-index: -1;
+            animation: twinkle 8s infinite alternate ease-in-out;
+        }
+
+        @keyframes twinkle {
+            0% { opacity: 0.05; transform: scale(1); }
+            100% { opacity: 0.15; transform: scale(1.02); }
+        }
+
+        /* Animasi Card Mendarat */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+        }
+
+        /* Spinner Loading */
         .loader {
-            border-top-color: #3b82f6;
+            border-top-color: #8b5cf6;
             -webkit-animation: spinner 1.5s linear infinite;
             animation: spinner 1.5s linear infinite;
         }
@@ -43,50 +93,63 @@
         }
     </style>
 </head>
-<body class="bg-slate-50 min-h-screen flex flex-col font-sans text-slate-800">
+<body class="min-h-screen flex flex-col font-sans overflow-x-hidden selection:bg-neon-purple selection:text-white">
+
+    <!-- Latar Belakang Animasi -->
+    <div class="nebula-bg"></div>
+    <div class="stars-pattern"></div>
 
     <!-- Hero Section -->
-    <header class="bg-pattern text-white pt-20 pb-24 px-6 relative overflow-hidden shadow-xl">
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/50"></div>
-        <div class="max-w-5xl mx-auto relative z-10 text-center">
-            <div class="inline-flex items-center justify-center p-3 bg-blue-500/20 rounded-2xl mb-6 backdrop-blur-sm border border-blue-400/30">
-                <svg class="w-10 h-10 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
+    <header class="pt-24 pb-20 px-6 relative z-10 text-center">
+        <div class="max-w-4xl mx-auto">
+            <!-- Badge -->
+            <div class="inline-flex items-center justify-center px-4 py-2 bg-space-800/80 rounded-full mb-6 border border-slate-700/50 backdrop-blur-md shadow-[0_0_15px_rgba(59,130,246,0.2)]">
+                <span class="flex h-2 w-2 rounded-full bg-neon-blue mr-3 animate-pulse"></span>
+                <span class="text-sm font-medium text-slate-300 tracking-wide">Sistem Pemetaan Aktif</span>
             </div>
-            <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">Portal WebGIS Interaktif</h1>
-            <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto font-light">Kumpulan proyek pemetaan digital dan visualisasi data spasial. Pilih salah satu peta di bawah ini untuk memulai eksplorasi.</p>
+            
+            <h1 class="font-display text-5xl md:text-6xl font-bold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400">
+                Portal WebGIS
+            </h1>
+            <h2 class="font-display text-xl md:text-2xl text-slate-400 mb-8 font-light">
+                Oleh <span class="text-white font-semibold shadow-neon-purple">Ripan Nursalam</span>
+            </h2>
+            <p class="text-lg text-slate-400 max-w-2xl mx-auto font-light leading-relaxed">
+                Eksplorasi data spasial dan jaringan transportasi melalui peta interaktif. Pilih koordinat tujuan Anda di bawah ini.
+            </p>
         </div>
     </header>
 
     <!-- Main Content Area -->
-    <main class="flex-grow px-4 md:px-8 -mt-10 relative z-20 pb-16">
+    <main class="flex-grow px-4 md:px-8 relative z-20 pb-20">
         <div class="max-w-6xl mx-auto">
             
             <!-- Container untuk List Peta -->
-            <div id="map-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="map-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 
-                <!-- Loading State (Akan dihapus oleh JS setelah data dimuat) -->
-                <div id="loading-state" class="col-span-full flex flex-col items-center justify-center py-20 bg-white rounded-2xl shadow-sm border border-slate-200">
-                    <div class="loader ease-linear rounded-full border-4 border-slate-100 h-12 w-12 mb-4"></div>
-                    <p class="text-slate-500 font-medium animate-pulse">Menghubungkan ke Repositori GitHub...</p>
+                <!-- Loading State -->
+                <div id="loading-state" class="col-span-full flex flex-col items-center justify-center py-24 bg-space-800/40 backdrop-blur-xl rounded-3xl border border-slate-800/50 shadow-2xl">
+                    <div class="loader ease-linear rounded-full border-4 border-slate-700 h-14 w-14 mb-6"></div>
+                    <p class="text-slate-400 font-display tracking-widest uppercase text-sm animate-pulse">Memindai Sektor GitHub...</p>
                 </div>
 
             </div>
 
-            <!-- Pesan Error (Tersembunyi secara default) -->
-            <div id="error-state" class="hidden col-span-full py-12 px-6 bg-red-50 rounded-2xl border border-red-100 text-center">
-                <svg class="w-12 h-12 text-red-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <h3 class="text-lg font-bold text-red-800 mb-1">Gagal Memuat Data</h3>
-                <p id="error-message" class="text-red-600 text-sm">Pastikan repositori bersifat publik dan koneksi internet stabil.</p>
+            <!-- Pesan Error -->
+            <div id="error-state" class="hidden col-span-full py-12 px-6 bg-red-900/20 backdrop-blur-md rounded-3xl border border-red-500/30 text-center">
+                <svg class="w-14 h-14 text-red-500 mx-auto mb-4 drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                <h3 class="font-display text-xl font-bold text-red-400 mb-2">Koneksi Terputus</h3>
+                <p id="error-message" class="text-red-300/70 text-sm">Gagal mengambil data dari server repositori.</p>
             </div>
             
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-slate-200 py-8 text-center text-slate-500 text-sm">
-        <p>&copy; <span id="year"></span> WebGIS Portfolio by <strong>nurs1233</strong>. Built with Leaflet & Tailwind CSS.</p>
+    <footer class="border-t border-slate-800/60 bg-space-900/50 backdrop-blur-lg py-8 text-center relative z-20">
+        <p class="text-slate-500 text-sm font-light tracking-wide">
+            &copy; <span id="year"></span> WebGIS Portfolio oleh <strong class="text-slate-300 font-medium">Ripan Nursalam</strong>. <br class="md:hidden"> Dibangun dengan Leaflet.js
+        </p>
     </footer>
 
     <script>
@@ -102,15 +165,14 @@
             const errorState = document.getElementById("error-state");
             const errorMessage = document.getElementById("error-message");
 
-            // Ikon Abstrak Peta Latar Belakang untuk Card
-            const mapBgSvg = `<svg class="absolute inset-0 w-full h-full text-blue-100 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none"><path stroke-width="0.5" d="M0,50 Q25,30 50,50 T100,50 M0,30 Q25,10 50,30 T100,30 M0,70 Q25,50 50,70 T100,70 M30,0 V100 M70,0 V100"></path></svg>`;
+            // SVG Grid Peta Keren untuk Card Latar Belakang
+            const gridSvg = `<svg class="absolute inset-0 w-full h-full text-blue-500/10" fill="none" stroke="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none"><path stroke-width="0.5" d="M0,20 H100 M0,40 H100 M0,60 H100 M0,80 H100 M20,0 V100 M40,0 V100 M60,0 V100 M80,0 V100" stroke-dasharray="2 2"></path></svg>`;
 
             try {
                 const response = await fetch(apiUrl);
                 if (!response.ok) {
-                    // Penanganan jika limit API GitHub habis
-                    if(response.status === 403) throw new Error("Terlalu banyak permintaan ke GitHub (Rate Limit). Silakan coba lagi nanti.");
-                    throw new Error(`Error ${response.status}: Gagal mengambil data dari GitHub`);
+                    if(response.status === 403) throw new Error("API Limit GitHub tercapai. Tunggu beberapa saat.");
+                    throw new Error(`Error ${response.status}: Transmisi Gagal.`);
                 }
                 const files = await response.json();
 
@@ -122,48 +184,56 @@
 
                 if (htmlFiles.length === 0) {
                     container.innerHTML = `
-                        <div class="col-span-full py-20 bg-white rounded-2xl shadow-sm border border-slate-200 text-center">
-                            <div class="text-5xl mb-4">📭</div>
-                            <h3 class="text-xl font-bold text-slate-700 mb-2">Belum Ada Peta</h3>
-                            <p class="text-slate-500">Tambahkan file .html ke repositori GitHub Anda untuk menampilkannya di sini.</p>
+                        <div class="col-span-full py-24 bg-space-800/40 backdrop-blur-xl rounded-3xl border border-slate-800/50 text-center shadow-2xl">
+                            <div class="text-6xl mb-6 opacity-60">🛰️</div>
+                            <h3 class="font-display text-2xl font-bold text-slate-200 mb-2">Sektor Kosong</h3>
+                            <p class="text-slate-400 font-light">Belum ada file peta (.html) yang diunggah ke repositori.</p>
                         </div>
                     `;
                     return;
                 }
 
-                // Render Cards
+                // Render Cards Tema Angkasa
                 htmlFiles.forEach((file, index) => {
-                    // Rapikan nama file: Hilangkan .html, ganti garis bawah/strip dengan spasi
                     let displayName = file.name.replace('.html', '').replace(/[-_]/g, ' ');
                     
-                    // Buat Card HTML Element
                     const card = document.createElement('a');
-                    card.href = file.name; // Link langsung ke file HTML
-                    // Animasi delay agar muncul bergiliran
-                    card.style.animationDelay = `${index * 100}ms`;
-                    card.className = "group block bg-white rounded-2xl shadow-md hover:shadow-xl border border-slate-100 overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 animate-fade-in-up";
+                    card.href = file.name;
+                    card.style.animationDelay = `${index * 150}ms`;
+                    
+                    // Styling Card Tema Gelap & Glowing Hover
+                    card.className = "group block bg-space-800/60 backdrop-blur-md rounded-3xl shadow-lg border border-slate-700/50 overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:border-neon-purple hover:shadow-[0_0_30px_rgba(139,92,246,0.25)] animate-fade-in-up relative";
                     
                     card.innerHTML = `
-                        <div class="h-32 bg-slate-50 border-b border-slate-100 flex items-center justify-center relative overflow-hidden">
-                            ${mapBgSvg}
-                            <!-- Ikon Tengah -->
-                            <div class="relative z-10 p-3 bg-white rounded-full shadow-sm text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300 group-hover:scale-110 transform">
-                                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
+                        <!-- Efek kilauan cahaya di sudut saat hover -->
+                        <div class="absolute -inset-full bg-gradient-to-r from-transparent via-white/5 to-transparent group-hover:animate-[shimmer_1.5s_infinite] transform -skew-x-12 z-0 pointer-events-none"></div>
+
+                        <!-- Header Gambar Abstrak Card -->
+                        <div class="h-36 bg-space-900/80 border-b border-slate-700/50 flex items-center justify-center relative overflow-hidden">
+                            ${gridSvg}
+                            <!-- Lingkaran Cahaya Belakang -->
+                            <div class="absolute w-20 h-20 bg-neon-blue rounded-full opacity-20 blur-2xl group-hover:bg-neon-purple group-hover:opacity-40 transition-all duration-500"></div>
+                            
+                            <!-- Ikon Planet / Peta -->
+                            <div class="relative z-10 p-4 bg-space-800 border border-slate-600 rounded-2xl shadow-lg text-slate-300 group-hover:bg-neon-purple group-hover:border-neon-purple group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                             </div>
                         </div>
-                        <div class="p-6 flex flex-col h-[calc(100%-8rem)] justify-between">
+                        
+                        <!-- Area Teks Card -->
+                        <div class="p-6 md:p-8 flex flex-col h-[calc(100%-9rem)] justify-between relative z-10">
                             <div>
-                                <h3 class="text-xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors line-clamp-2">${displayName}</h3>
-                                <p class="text-sm text-slate-500 mt-2 line-clamp-2">Aplikasi WebGIS Interaktif yang dibangun menggunakan Leaflet.js</p>
+                                <h3 class="font-display text-xl font-bold text-slate-100 group-hover:text-neon-purple transition-colors duration-300 line-clamp-2 leading-tight">${displayName}</h3>
+                                <p class="text-sm text-slate-400 mt-3 line-clamp-2 font-light">Visualisasi data WebGIS interaktif.</p>
                             </div>
-                            <div class="mt-6 flex items-center justify-between">
-                                <span class="text-sm font-semibold text-blue-600 flex items-center">
-                                    Buka Peta
-                                    <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            <div class="mt-6 flex items-center justify-between pt-4 border-t border-slate-700/50">
+                                <span class="text-sm font-medium text-neon-blue group-hover:text-neon-purple flex items-center transition-colors duration-300">
+                                    Akses Peta
+                                    <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                                 </span>
-                                <span class="text-xs text-slate-400 bg-slate-100 px-2 py-1 rounded-md">.html</span>
+                                <span class="text-xs font-mono text-slate-500 bg-space-900 border border-slate-700 px-2 py-1 rounded">.html</span>
                             </div>
                         </div>
                     `;
@@ -178,16 +248,11 @@
             }
         });
     </script>
-
-    <!-- Animasi Custom Tambahan untuk efek muncul yang halus -->
+    
     <style>
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade-in-up {
-            animation: fadeInUp 0.6s ease-out forwards;
-            opacity: 0;
+        /* Animasi Shimmer kilauan cahaya */
+        @keyframes shimmer {
+            100% { left: 200%; }
         }
     </style>
 </body>
