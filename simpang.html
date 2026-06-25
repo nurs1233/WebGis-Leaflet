@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Pertigaan Jalan Cisirung</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        /* Mengatur ukuran kontainer peta */
+        body { margin: 0; padding: 0; }
+        #map { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        // 1. Inisialisasi peta (koordinat awal bebas, nanti akan dioverride oleh fitBounds)
+        var map = L.map('map').setView([-6.9, 107.6], 13);
+
+        // 2. Menambahkan Basemap OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // 3. Menentukan URL Raw GeoJSON dari repositori GitHub Anda
+        var geojsonUrl = 'https://raw.githubusercontent.com/nurs1233/WebGis-Leaflet/main/simpang/Jalan%20Cisirung.geojson';
+
+        // 4. Memuat data GeoJSON menggunakan Fetch API
+        fetch(geojsonUrl)
+            .then(function(response) {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.json();
+            })
+            .then(function(data) {
+                // 5. Menambahkan data GeoJSON ke dalam peta dengan styling (warna merah)
+                var geojsonLayer = L.geoJSON(data, {
+                    style: function(feature) {
+                        return {
+                            color: "#ff0000",
+                            weight: 5,
+                            opacity: 0.8
+                        };
+                    },
+                    // Opsional: Menambahkan popup jika ada properti nama pada file shp/geojson Anda
+                    onEachFeature: function(feature, layer) {
+                        if (feature.properties && feature.properties.name) {
+                            layer.bindPopup(feature.properties.name);
+                        } else {
+                            layer.bindPopup("Jalan Cisirung");
+                        }
+                    }
+                }).addTo(map);
+
+                // 6. Menyesuaikan tampilan peta (zoom & pan) agar pas dengan ukuran GeoJSON
+                map.fitBounds(geojsonLayer.getBounds());
+            })
+            .catch(function(error) {
+                console.error("Gagal memuat GeoJSON:", error);
+                alert("Gagal memuat data jalan. Pastikan koneksi internet stabil atau URL GeoJSON valid.");
+            });
+    </script>
+</body>
+</html>
